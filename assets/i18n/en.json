@@ -1,0 +1,17 @@
+{
+  "login_page": {
+    "page_title": "Login",
+    "login_form": {
+      "username_field_label": "Username",
+      "password_field_label": "Password",
+      "login_button_label": "Login",
+      "login_failure_message": "Authentication failed"
+    }
+  },
+  "home_page": {
+    "page_title": "Home"
+  },
+  "settings_page": {
+    "page_title": "Settings"
+  }
+}

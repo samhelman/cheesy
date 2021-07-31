@@ -1,0 +1,9 @@
+name: network_client
+description: Dart package which manages network requests
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0-0 <3.0.0"
+
+dependencies:
+  dio: ^4.0.0
