@@ -1,5 +1,9 @@
 ## before you run the project
 
+**YOU NEED SSH ACCESS TO BITBUCKET**
+This project uses the authentication_repository package from our bitbucket account and to access it
+you need an ssh key in your account. Please follow the instructions here to get started https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/
+
 **Run this to change your package name**
 
 `flutter pub run change_app_package_name:main com.new.package.name`

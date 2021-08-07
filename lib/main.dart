@@ -3,12 +3,13 @@ import 'dart:async';
 import 'package:authentication_repository/authentication_repository.dart';
 import 'package:base_flutter_project/app.dart';
 import 'package:base_flutter_project/env/environment.dart';
-import 'package:base_flutter_project/services/firebase_service.dart';
 import 'package:flutter/material.dart';
 import 'package:network_client/network_client.dart';
 
 Future<void> main() async {
   runZonedGuarded<Future<void>>(() async {
+    WidgetsFlutterBinding.ensureInitialized();
+
     /// set up environment to be used
     const String environment = String.fromEnvironment(
       'ENVIRONMENT',
